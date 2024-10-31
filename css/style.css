@@ -1,0 +1,56 @@
+#rollbar-logging-form input[type=text] {
+  width: 90%;
+}
+
+#rollbar-logging-form textarea {
+  width: 90%;
+}
+
+.rollbar-logging-tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rollbar-logging-tabs li {
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 0;
+}
+
+.rollbar-logging-tabs a {
+  color: #000;
+  display: block;
+  font-size: 120%;
+  font-weight: 700;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.rollbar-logging-js-handle {
+  background: #F8DC3D;
+}
+
+.rollbar-logging-js-tab {
+  border-top: 8px solid #F8DC3D;
+}
+
+.rollbar-logging-php-handle {
+  background: #A7AAD1;
+}
+
+.rollbar-logging-php-tab {
+  border-top: 8px solid #A7AAD1;
+}
+
+.rollbar-logging-tab-panel {
+  background: #fff;
+  clear: both;
+  display: block;
+  padding: 20px;
+}
+
+.rollbar-logging-tab-panel.hide {
+  display: none;
+}
